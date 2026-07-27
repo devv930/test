@@ -1,0 +1,28 @@
+<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pm-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0cf8e"/>
+      <stop offset="1" stop-color="#b8873f"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="156" height="156" rx="38" fill="#0b0c10" stroke="url(#pm-gold)" stroke-width="2"/>
+
+  <!-- candlesticks -->
+  <g stroke="url(#pm-gold)" stroke-width="4" stroke-linecap="round">
+    <line x1="46" y1="86" x2="46" y2="108"/>
+    <line x1="70" y1="70" x2="70" y2="118"/>
+    <line x1="94" y1="52" x2="94" y2="94"/>
+    <line x1="118" y1="40" x2="118" y2="70"/>
+  </g>
+  <g fill="url(#pm-gold)">
+    <rect x="40" y="92" width="12" height="10" rx="2"/>
+    <rect x="64" y="78" width="12" height="16" rx="2"/>
+    <rect x="88" y="60" width="12" height="18" rx="2"/>
+    <rect x="112" y="46" width="12" height="14" rx="2"/>
+  </g>
+
+  <!-- ascending arrow line -->
+  <path d="M40 100 L70 76 L94 62 L124 38" fill="none" stroke="url(#pm-gold)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M104 38 H124 V58" fill="none" stroke="url(#pm-gold)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
